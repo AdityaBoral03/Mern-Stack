@@ -1,0 +1,36 @@
+.table {
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+    
+  }
+
+  .header-row {
+    display: table-row;
+    background-color: seagreen;
+  }
+
+  .header {
+    display: table-cell;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: white; /* Header text color */
+  }
+
+  .data-row:nth-child(odd) { 
+    display: table-row;
+    background-color: white;
+  }
+
+  .data-row:nth-child(even) {
+    display: table-row;
+    background-color: lightgray;
+  }
+
+  .data {
+    display: table-cell;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
